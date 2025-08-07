@@ -60,7 +60,7 @@ Optional:
 ~> The default value of `durable` field has been updated since version **2.5.0**. Before it was `false`!
 
 - `internal` (Boolean) If `true`, clients cannot publish to this exchange directly. It can only be used with exchange to exchange bindings. Defaults to `false`.
-- `type` (String) The type of exchange. Possible values are `direct`, `fanout`, `headers` and `topic`. Defaults to `direct`.
+- `type` (String) The type of exchange. Possible values are `direct`, `fanout`, `headers`, `topic`, `x-consistent-hash`, `x-delayed-message` and `x-local-random`. Defaults to `direct`.
 
 ## Import
 

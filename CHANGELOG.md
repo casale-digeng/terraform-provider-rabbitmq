@@ -40,15 +40,15 @@ FEATURE:
 
 FIX:
 
-* `x-queue-type` argument causing always queue recreation [#32](https://github.com/rfd59/terraform-provider-rabbitmq/issues/32) - @pnowy
-  ([#35](https://github.com/rfd59/terraform-provider-rabbitmq/pull/35))
+* `x-queue-type` argument causing always queue recreation [#32](https://github.com/casale-digeng/terraform-provider-rabbitmq/issues/32) - @pnowy
+  ([#35](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/35))
 
-* Datasource _vhost_ returns no error message when the vhost doesn't exist [#36](https://github.com/rfd59/terraform-provider-rabbitmq/issues/36) - @rfavreau
+* Datasource _vhost_ returns no error message when the vhost doesn't exist [#36](https://github.com/casale-digeng/terraform-provider-rabbitmq/issues/36) - @rfavreau
 
 BUILD / DEV:
 
 * Update dependencies - @rfavreau
-  ([#29](https://github.com/rfd59/terraform-provider-rabbitmq/pull/29), [#31](https://github.com/rfd59/terraform-provider-rabbitmq/pull/31), [#33](https://github.com/rfd59/terraform-provider-rabbitmq/pull/33), [#34](https://github.com/rfd59/terraform-provider-rabbitmq/pull/34))
+  ([#29](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/29), [#31](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/31), [#33](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/33), [#34](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/34))
 
 * Upgrade _resource_queue_ unit tests - @rfavreau
 
@@ -59,14 +59,14 @@ BUILD / DEV:
 FEATURES:
 
 * Add custom headers to _RabbitMQ_ Api - @Dbzman
-  ([#27](https://github.com/rfd59/terraform-provider-rabbitmq/pull/27))
+  ([#27](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/27))
 
 BUILD / DEV:
 
 * Upgrade to Golang 1.23 - @rfavreau
 
 * Update dependencies - @rfavreau
-  ([#23](https://github.com/rfd59/terraform-provider-rabbitmq/pull/23), [#25](https://github.com/rfd59/terraform-provider-rabbitmq/pull/25), [#26](https://github.com/rfd59/terraform-provider-rabbitmq/pull/26))
+  ([#23](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/23), [#25](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/25), [#26](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/26))
 
 
 ## 2.2.0 (September 29, 2024)
@@ -74,8 +74,8 @@ BUILD / DEV:
 FIX:
 
 * Fix vhost resource - @rfavreau
-  ([#16](https://github.com/rfd59/terraform-provider-rabbitmq/pull/16))
-  > - Import `default_queue_type` when reading vhost resource ([#14](https://github.com/rfd59/terraform-provider-rabbitmq/pull/14))
+  ([#16](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/16))
+  > - Import `default_queue_type` when reading vhost resource ([#14](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/14))
   > - Fix `default_queue_type` for _RabbitMQ 3.10_
   > - Validate function for `default_queue_type` attribute
   > - Set default value for `default_queue_type`
@@ -84,45 +84,45 @@ FIX:
 BUILD / DEV:
 
 * Update GitHub Actions - @rfavreau
-  ([#15](https://github.com/rfd59/terraform-provider-rabbitmq/pull/15))
+  ([#15](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/15))
 
 * GitHub settings - @rfavreau
-  ([#18](https://github.com/rfd59/terraform-provider-rabbitmq/pull/18))
+  ([#18](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/18))
 
 ## 2.1.0 (May 26, 2024)
 
 FEATURES:
 
-* Manage the user limits [#10](https://github.com/rfd59/terraform-provider-rabbitmq/issues/10) - @rfavreau
-  ([#10](https://github.com/rfd59/terraform-provider-rabbitmq/pull/10))
+* Manage the user limits [#10](https://github.com/casale-digeng/terraform-provider-rabbitmq/issues/10) - @rfavreau
+  ([#10](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/10))
 
 BUILD / DEV:
 
 * New repository structure - @rfavreau
-  ([#11](https://github.com/rfd59/terraform-provider-rabbitmq/pull/11))
+  ([#11](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/11))
 
 * Build task for Provider documentation - @rfavreau
-  ([#12](https://github.com/rfd59/terraform-provider-rabbitmq/pull/12))
+  ([#12](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/12))
 
 ## 2.0.0 (May 20, 2024)
 
 FEATURES:
 
 * Added vhost options/limits and Added shovel parameters - @Galvill
-  ([#3](https://github.com/rfd59/terraform-provider-rabbitmq/pull/3))
+  ([#3](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/3))
 
 FIX:
 
 * Add already exists exceptions and enhance errors - @Chahed
-  ([#6](https://github.com/rfd59/terraform-provider-rabbitmq/pull/6))
+  ([#6](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/6))
 
 BUILD / DEV:
 
 * Update project - @rfavreau
-  ([#2](https://github.com/rfd59/terraform-provider-rabbitmq/pull/2))
+  ([#2](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/2))
 
 * Update GitHub Actions - @rfavreau
-  ([#7](https://github.com/rfd59/terraform-provider-rabbitmq/pull/7))
+  ([#7](https://github.com/casale-digeng/terraform-provider-rabbitmq/pull/7))
 
 ## 1.8.0 (March 15, 2023)
 

@@ -46,4 +46,4 @@ Read-Only:
 - `auto_delete` (Boolean) If `true`, the exchange will delete itself after at least one queue or exchange has been bound to this one, and then all queues or exchanges have been unbound.
 - `durable` (Boolean) Whether the exchange survives server restarts.
 - `internal` (Boolean) If `true`, clients cannot publish to this exchange directly. It can only be used with exchange to exchange bindings.
-- `type` (String) The type of exchange. Possible values are `direct`, `fanout`, `headers` and `topic`.
+- `type` (String) The type of exchange. Possible values are `direct`, `fanout`, `headers`, `topic`, `x-consistent-hash`,  `x-delayed-message` and `x-local-random`.

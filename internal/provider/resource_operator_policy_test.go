@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 	rabbithole "github.com/michaelklishin/rabbit-hole/v3"
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/acceptance"
+	"github.com/casale-digeng/terraform-provider-rabbitmq/internal/acceptance"
 )
 
 func TestAccOperatorPolicy(t *testing.T) {

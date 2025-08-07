@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/provider"
+	"github.com/casale-digeng/terraform-provider-rabbitmq/internal/provider"
 )
 
 func TestProvider(t *testing.T) {

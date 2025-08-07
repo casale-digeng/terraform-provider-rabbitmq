@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/acceptance"
-	"github.com/rfd59/terraform-provider-rabbitmq/internal/acceptance/check"
+	"github.com/casale-digeng/terraform-provider-rabbitmq/internal/acceptance"
+	"github.com/casale-digeng/terraform-provider-rabbitmq/internal/acceptance/check"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 )
